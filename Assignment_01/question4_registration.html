@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+
+<body>
+
+    <h1>Student Registration Form</h1>
+
+    <form action="#" >
+
+        <p>
+            <label for="fullname">Full Name:</label><br>
+            <input type="text" id="fullname" name="fullname" required>
+        </p>
+
+        <p>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required>
+        </p>
+
+        <p>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required>
+        </p>
+
+        <p>
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob" name="dob">
+        </p>
+
+        <p>
+            <label>Gender:</label><br>
+            <input type="radio" id="gender-male" name="gender" value="male">
+            <label for="gender-male">Male</label>
+            <input type="radio" id="gender-female" name="gender" value="female">
+            <label for="gender-female">Female</label>
+        </p>
+
+        <p>
+            <label>Favorite Programming Languages:</label><br>
+            <input type="checkbox" id="lang-html" name="languages" value="html">
+            <label for="lang-html">HTML</label><br>
+            <input type="checkbox" id="lang-css" name="languages" value="css">
+            <label for="lang-css">CSS</label><br>
+            <input type="checkbox" id="lang-js" name="languages" value="javascript">
+            <label for="lang-js">JavaScript</label>
+        </p>
+
+        <p>
+            <label for="city">City:</label><br>
+            <select id="city" name="city">
+                <option value="karachi">Karachi</option>
+                <option value="lahore">Lahore</option>
+                <option value="islamabad">Islamabad</option>
+                <option value="peshawar">Peshawar</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="about">About Yourself:</label><br>
+            <textarea id="about" name="about" rows="4" cols="30"></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </p>
+
+    </form>
+
+</body>
+
+</html>
