@@ -1,0 +1,44 @@
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+caption {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+th {
+    background-color: rgb(255, 71, 71);
+}
+
+#col1 {
+    background-color: rgb(61, 198, 198);
+
+}
+
+#col2 {
+    background-color: rgb(195, 195, 67);
+
+}
+
+#col3 {
+    background-color: rgb(129, 64, 111);
+
+}
+
+#col4 {
+    background-color: rgb(70, 153, 90);
+
+}

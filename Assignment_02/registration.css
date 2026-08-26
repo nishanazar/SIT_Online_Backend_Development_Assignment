@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    width: 100%;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'Verdana', sans-serif;
+    color: #2c3e50;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Courier New', monospace;
+    color: #e74c3c;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Georgia', serif;
+    color: #2980b9;
+}
+
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #8e44ad;
+}
+
+/* Flexbox for Gender Options */
+.gender-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+/* Flexbox for Buttons */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    font-family: 'Impact', sans-serif;
+}
+
+input[type="reset"] {
+    background-color: #dc3545;
+    color: white;
+    font-family: 'Comic Sans MS', cursive;
+}
