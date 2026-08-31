@@ -5,3 +5,4 @@ This repository contains all the assignments for the SMIT Online Backend Develop
 ## Structure
 - `Assignment_01/`: Contains the files and screenshots for Assignment 01.
 - `Assignment_02/`: Contains the files and images for Assignment 02 (HTML & CSS).
+- `Assignment_03/`: Contains the files and screenshots for Assignment 03 (HTML, CSS & JavaScript Basics).
