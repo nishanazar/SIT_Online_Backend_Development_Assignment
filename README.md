@@ -9,3 +9,4 @@ This repository contains all the assignments for the SMIT Online Backend Develop
 - `Assignment_04/`: Contains the files for Assignment 04 (Operators & Conditional Statements).
 - `Assignment_05/`: Contains the files for Assignment 05 (JavaScript Basics: Calculator, Functions, Loops, RollCall).
 - `Assignment_06/`: Contains the files for Assignment 06 (JavaScript Basics: Basic Array Methods).
+- `Assignment_07/`: Contains the files for Assignment 07 (JavaScript Advanced Arrays & Objects).
