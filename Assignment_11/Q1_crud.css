@@ -1,0 +1,90 @@
+/* Body Design */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Main Heading */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h3 {
+    text-align: center;
+    color: blue;
+}
+
+/* Form Container */
+.form-container {
+    background-color: white;
+    padding: 20px;
+    max-width: 500px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Input Fields */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+/* Buttons */
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+/* Post Cards */
+.post-card {
+    background-color: white;
+    padding: 20px;
+    margin: 15px auto;
+    max-width: 700px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px gray;
+}
+
+/* Post Title */
+.post-card h3 {
+    text-align: left;
+    color: black;
+}
+
+/* Edit Fields */
+.post-card input,
+.post-card textarea {
+    margin-top: 8px;
+}
+
+/* Delete Button */
+.delete-btn {
+    background-color: red;
+}
+
+/* Messages */
+#message {
+    font-weight: bold;
+    margin-top: 15px;
+}

@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create and Update Post</title>
+    <link rel="stylesheet" href="Q4_postRequests.css">
+</head>
+<body>
+
+    <h1>Create and Update Post</h1>
+
+    <form id="postForm">
+        <label>Title:</label>
+        <input type="text" id="title" required>
+
+        <label>Content:</label>
+        <textarea id="content" required></textarea>
+
+        <label>User ID:</label>
+        <input type="number" id="userId" value="1" required>
+
+        <button type="submit">Create Post (POST)</button>
+    </form>
+
+    <div class="buttons">
+        <button id="putBtn">Replace Post (PUT)</button>
+        <button id="patchBtn">Update Title (PATCH)</button>
+        <button id="deleteBtn">Delete Post</button>
+    </div>
+
+    <h2>API Response</h2>
+    <pre id="output">Responses will appear here...</pre>
+
+    <script src="Q4_postRequests.js"></script>
+</body>
+</html>
