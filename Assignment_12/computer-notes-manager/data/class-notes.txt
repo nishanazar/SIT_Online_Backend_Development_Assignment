@@ -1,0 +1,4 @@
+Node.js runs JavaScript outside the browser.
+npm is used to install and manage packages.
+Core modules like os, path and fs come built-in with Node.js.
+The fs module helps us read and write files.
